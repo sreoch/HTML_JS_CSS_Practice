@@ -41,9 +41,32 @@ button, input {
 
 .album-list-item{
     flex-wrap: wrap;
-    order: 5;
-    flex-basis: auto;
-    background-color: green;
-    width: 150px;
-    border: 1px solid blue;
+    background-color: aliceblue;
+    max-width: 150px; 
+    border: 10px solid palegoldenrod;
+    text-align: center;
+
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+
+    display: block;
+    position: relative;
+    border: solid 3-x #6e7491;
+    padding: 40px 60px;
+    width: 70%;
+    margin: 100px auto 0;
+    font-size: 17px;
+    line-height: 28px;
+    transform: rotate(-1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.13s ease-in
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    
 }
